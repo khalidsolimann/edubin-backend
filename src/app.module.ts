@@ -7,7 +7,7 @@ import { TeacherModule } from './teacher/teacher.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://project:12345@cluster0.dacbn.mongodb.net/edubin?retryWrites=true&w=majority'
+      'localhost:27017'
     ),
     TeacherModule,
     CourseModule,
